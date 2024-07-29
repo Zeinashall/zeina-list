@@ -34,11 +34,11 @@ nav {
 nav a {
   margin-left: 12px;
 }
-
-nav .logo {
-  margin-right: auto;
+@media (min-width: 768px) {
+  nav .logo {
+    margin-right: auto;
+  }
 }
-
 footer {
   display: block;
   text-align: center;
@@ -55,4 +55,22 @@ footer {
 .not-found a {
   color: #4979ff;
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 8px 0;
+  }
+
+  nav .logo {
+    margin-bottom: 10px;
+  }
+
+  .content {
+    padding: 0 20px;
+  }
 }
