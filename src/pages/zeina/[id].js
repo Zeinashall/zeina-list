@@ -27,7 +27,7 @@ export const getStaticProps = async (context) => {
 
 const Details = ({ zeina }) => {
   return (
-    <div>
+    <div class="grow">
       <h1>{zeina.name} </h1>
       <p>{zeina.email}</p>
       <p>{zeina.website}</p>
