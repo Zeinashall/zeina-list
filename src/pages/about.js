@@ -7,7 +7,7 @@ const about = () => {
         <Head>
           <title> zeina About</title>
         </Head>
-        <div>
+        <div class="grow">
             <h1>
                 about
             </h1>

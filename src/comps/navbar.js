@@ -4,11 +4,13 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/call.jpg " width={128} height={77} />
+        <Link href="/">
+          <Image src="/call1.png " width={128} height={77} />
+        </Link>
       </div>
-      <Link href="/">home</Link>
-      <Link href="/about">about</Link>
-      <Link href="/zeina">zeina listing</Link>
+
+      <Link href="/About">About</Link>
+      <Link href="/zeina">Lists</Link>
     </nav>
   );
 };
