@@ -5,12 +5,13 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <Link href="/">
-          <Image src="/call1.png " width={128} height={77} />
+          <Image src="/call1.png "  alt="img1" width={80} height={80} />
         </Link>
       </div>
-
-      <Link href="/about">About</Link>
+      <div className="lists">
+      <Link href="/about" >About</Link>
       <Link href="/zeina">Lists</Link>
+      </div>
     </nav>
   );
 };
